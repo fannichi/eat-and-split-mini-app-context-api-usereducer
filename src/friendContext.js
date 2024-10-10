@@ -180,7 +180,6 @@ function FriendProvider({ children }) {
         whoPays,
         handleSetWhoPays,
         handleOpenAddForm,
-        handleFormAddFriend,
         handleSelectFriend,
         handleSubmitAddFriend,
         handleSplitBill,
@@ -188,7 +187,6 @@ function FriendProvider({ children }) {
         showAddFriend,
         handleSetFriendName,
         handleSetFriendPhoto,
-        dispatch,
       }}
     >
       {children}
